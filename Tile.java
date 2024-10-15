@@ -8,18 +8,17 @@
 
 public class Tile {
     private String color; 
-    private boolean glued;  
     private Rectangle rectangle;
 
     /**
      * Constructor to create a tile with a specific color
      */
     public Tile(String color, int xPosition, int yPosition){
-        this.color = color;
-        this.glued = false;  
+        this.color = color; 
         rectangle = new Rectangle();
         rectangle.moveHorizontal(xPosition);
         rectangle.moveVertical(yPosition);
+        setColor(color);
         rectangle.makeVisible();
     }
 
@@ -38,6 +37,36 @@ public class Tile {
             rectangle.makeVisible();
         }
     }
+    
+    /**
+     * Asigna el color basado en el carácter y actualiza el color del rectángulo.
+     */
+    public void setColor(String c) {
+        switch (c) {
+            case "red":
+                color = "red";
+                rectangle.changeColor("red");
+                break;
+            case "green":
+                color = "green";
+                rectangle.changeColor("green");
+                break;
+            case "blue":
+                color = "blue";
+                rectangle.changeColor("blue");
+                break;
+            case "yellow":
+                color = "yellow";
+                rectangle.changeColor("yellow");
+                break;
+            case "black":
+                color = "black";
+                rectangle.changeColor("black");
+                break;
+            default:
+                throw new IllegalArgumentException("Color no válido: " + c);
+        }
+    }
 
     /**
      * An example of a method - replace this comment with your own
@@ -50,6 +79,7 @@ public class Tile {
             case "green": return 'g';
             case "blue": return 'b';
             case "yellow": return 'y';
+            case "black": return '.';
             default: return '.';
         }
     }
@@ -59,33 +89,6 @@ public class Tile {
      */
     public String getColor(){
         return color;
-    }
-
-    /**
-     * Apply glue
-     */
-    public void applyGlue(){
-        if (this.glued == false){
-            this.glued = true;
-        }
-        else{
-            throw new IllegalArgumentException("La ficha ya tiene pegante");
-        }
-
-    }
-
-    /**
-     * Remove glue
-     */
-    public void removeGlue(){
-        if (this.glued){
-            this.glued = false;
-
-        }
-        else{
-            throw new IllegalArgumentException("La ficha no tiene pegante");
-        }
-
     }
 
     /**
@@ -100,13 +103,6 @@ public class Tile {
             default:
                 System.out.println("Dirección no válida");
         }
-    }
-
-    /**
-     * Determine if a tile is glued
-     */
-    public boolean isGlued(){
-        return glued;
     }
 
     /**
