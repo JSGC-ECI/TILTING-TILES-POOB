@@ -1,0 +1,17 @@
+#Tue Sep 17 22:29:13 COT 2024
+bluej.teamsettings.git.branch=
+bluej.teamsettings.git.protocol=https
+bluej.teamsettings.git.repositoryPrefix=/JuanSebastianGuayazanClavijoECI/prupru.git
+bluej.teamsettings.git.server=github.com
+bluej.teamsettings.ignore1=.*\\.class
+bluej.teamsettings.ignore2=bluej\\.pkh
+bluej.teamsettings.ignore3=team\\.defs
+bluej.teamsettings.ignore4=.*\\.ctxt
+bluej.teamsettings.ignore5=.*\\~
+bluej.teamsettings.ignore6=.*\\\#
+bluej.teamsettings.ignore7=.*\\\#backup
+bluej.teamsettings.ignore8=\\.DS_Store
+bluej.teamsettings.user=JuanSebastianGuayazanClavijoECI
+bluej.teamsettings.vcs=git
+bluej.teamsettings.yourEmail=JUAN.GUAYAZAN-C@mail.escuelaing.edu.co
+bluej.teamsettings.yourName=Juan Sebastian
