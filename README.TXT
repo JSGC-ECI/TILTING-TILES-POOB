@@ -1,12 +1,7 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+# PROYECTO INICIAL
+LINA JANETH SANCHEZ FORERO y JUAN SEBASTIÁN GUAYAZÁN CLAVIJO  
+Programación Orientada a Objetos (ISIS POOB-2 LEC y POOB-201 LAB)     
+Decanatura Ingeniería de Sistemas → Centro de Estudios de Ingeniería de Software    
+Ingeniería de Sistemas e Ingeniería Estadística   
+Escuela Colombiana de Ingeniería Julio Garavito   
+2024-2
