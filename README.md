@@ -1,10 +1,14 @@
-# 🧩 Tilting Tiles - POOB
+# 🧩 Tilting Tiles
 
-**Repositorio oficial del proyecto de Programación Orientada a Objetos (POOB)**  
-👨‍🎓 **Autor:** *Juan Sebastián Guayazán Clavijo*  
-🧑‍🏫 **Grupo:** *POOB - 2*  
-🏫 **Escuela Colombiana de Ingeniería Julio Garavito – ECIJG*  
-📘 **Curso:** Programación Orientada a Objetos – 2024-2
+SANTIAGO ROCHA DURAN y MARIA IRMA DIAZ ROZO
+- LINA JANETH SANCHEZ FORERO <lina.sanchez@mail.escuelaing.edu.co>
+- JUAN SEBASTIÁN GUAYAZÁN CLAVIJO <juan.guayazan-c@mail.escuelaing.edu.co>
+
+Programación Orientada a Objetos (ISIS POOB - 2 LEC y POOB-201 LAB)   
+Decanatura Ingeniería de Sistemas → Centro de Estudios de Ingeniería de Software    
+Ingeniería de Sistemas e Ingeniería Estadística    
+Escuela Colombiana de Ingeniería Julio Garavito    
+2024-2
 
 ---
 
@@ -95,12 +99,3 @@ git clone https://github.com/JuanSebastianGuayazanClavijoECI/TILTING-TILES-POOB.
 6. Buenas prácticas como equipo  
 7. Práctica XP más útil aplicada
 
----
-
-## 🧠 Créditos
-
-> Proyecto desarrollado en el curso de **Programación Orientada a Objetos** bajo la dirección del Departamento de Ingeniería de Sistemas de la **Escuela Colombiana de Ingeniería Julio Garavito**.
-
-👨‍💻 Hecho con 💙 por *Juan Sebastián Guayazán Clavijo*
-
----
