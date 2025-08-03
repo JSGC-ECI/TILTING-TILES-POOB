@@ -1,8 +1,16 @@
-# 🧩 Tilting Tiles
+# 📌 TILTING TILES
+
+> ⚠️ Estado: ***EN DESARROLLO*** Versión académica
+
+Simulador de tablero dinámico en el que las fichas se inclinan en distintas direcciones. Este proyecto busca aplicar principios de orientación a objetos, modelado de estados y movimientos en una matriz interactiva y lógica.
+
+---
+
+## 👥 Autores
 
 SANTIAGO ROCHA DURAN y MARIA IRMA DIAZ ROZO
-- LINA JANETH SANCHEZ FORERO <lina.sanchez@mail.escuelaing.edu.co>
-- JUAN SEBASTIÁN GUAYAZÁN CLAVIJO <juan.guayazan-c@mail.escuelaing.edu.co>
+- LINA JANETH SANCHEZ FORERO → [lina.sanchez@mail.escuelaing.edu.co](mailto:lina.sanchez@mail.escuelaing.edu.co)
+- [JUAN SEBASTIÁN GUAYAZÁN CLAVIJO](https://github.com/JSGC-ECI) → [juan.guayazan-c@mail.escuelaing.edu.co](mailto:juan.guayazan-c@mail.escuelaing.edu.co)
 
 Programación Orientada a Objetos (ISIS POOB - 2 LEC y POOB-201 LAB)   
 Decanatura Ingeniería de Sistemas → Centro de Estudios de Ingeniería de Software    
@@ -10,92 +18,134 @@ Ingeniería de Sistemas e Ingeniería Estadística
 Escuela Colombiana de Ingeniería Julio Garavito    
 2024-2
 
----
 
-## 🎯 Descripción
-
-Este proyecto es un simulador interactivo inspirado en el *Problem F – Tilting Tiles* de la Maratón ICPC 2023. 🧠 El propósito es construir un simulador extensible y visual que permita probar interacciones entre **baldosas** y **pegantes especiales** en un tablero dinámico.
-
-📌 A lo largo de cinco ciclos, se desarrollaron nuevas funcionalidades, se refactorizó el sistema y se aplicaron herramientas de análisis de calidad, siempre bajo principios de **extensibilidad**, **funcionalidad** y **usabilidad**.
+Ingeniería de Sistemas e Ingeniería Estadística
+Escuela Colombiana de Ingeniería Julio Garavito
+2025-
 
 ---
 
-## ✨ Características principales
+## 🧠 Índice
 
-✅ Crear tableros personalizados  
-🧱 Adicionar, reubicar y eliminar baldosas  
-🧪 Aplicar y remover pegantes  
-🎯 Ladear el tablero en cualquier dirección  
-🔍 Consultar configuraciones, estados y restricciones  
-🌀 Intercambiar vistas de edición y referencia  
-🕳️ Agujerear celdas vacías  
-📊 Resolver automáticamente el tablero  
-📽️ Simular la solución paso a paso
-
-### 🔸 Tipos de Baldosas
-- Normal  
-- Fixed 🧱 (no se mueven)  
-- Rough 🪨 (no deslizan)  
-- Freelance 🌀 (no se pegan)  
-- Flying 🪽 (no caen)  
-- 🔧 *Tipo personalizado propuesto*
-
-### 🔹 Tipos de Pegantes
-- Normal  
-- Super 💥  
-- Frágil 🧊
+* 📌 [Nombre del Proyecto](#-tilting-tiles)
+* 🚀 [Características](#-características)
+* ⚙️ [Tecnologías](#️-tecnologías)
+* 📦 [Instalación](#-instalación-y-requisitos)
+* ▶️ [Uso](#️-uso)
+* 🧪 [Pruebas](#-pruebas)
+* 📁 [Estructura del Proyecto](#-estructura-del-proyecto)
+* 📌 [TODOs / Funcionalidades Futuras](#-todos--funcionalidades-futuras)
+* 👥 [Autores](#-autores)
+* 📄 [Licencia](#-licencia)
 
 ---
 
-## 🗂️ Estructura del Proyecto
+## 🚀 Características
 
-- 📦 `shapes`: jerarquía de clases base (herencia, reutilización)
-- 📦 `puzzle`: lógica del simulador y comandos
-
----
-
-## 🛠️ Requisitos Técnicos
-
-- ☕ Java 8+
-- 💻 Eclipse o BlueJ
-- 🧪 JUnit (pruebas unitarias y de aceptación)
-- 📊 PMD (análisis estático)
-- 📈 Cobertura (análisis dinámico)
+* ✅ Simulación visual de inclinación de fichas en cuatro direcciones
+* ✅ Soporte para fichas pegadas y restricciones de movimiento
+* ✅ Estados dinámicos del tablero y evolución paso a paso
+* ✅ Proyecto educativo con propósito práctico y modular
+* ✅ Compatible con BlueJ, Eclipse o cualquier IDE Java
 
 ---
 
-## ▶️ Instrucciones de Ejecución
+## ⚙️ Tecnologías
+
+* Lenguaje(s): `Java`
+* Herramientas: `BlueJ`, `JUnit`, `Java AWT`, `Swing`
+* Dependencias: `JUnit 4.13.2`, `Hamcrest 1.3` (para pruebas unitarias)
+
+---
+
+## 📦 Instalación y Requisitos
+
+### Clonar el repositorio
 
 ```bash
-git clone https://github.com/JuanSebastianGuayazanClavijoECI/TILTING-TILES-POOB.git
+git clone https://github.com/JuanSebastianGuayazanClavijoECI/TILTING-TILES-POOB
 ```
 
-1. Abre el proyecto en **Eclipse** o **BlueJ**
-2. Ejecuta las clases de prueba: `PuzzleTest`, `PuzzleC2Test`, `PuzzleContestTest`, `PuzzleAtest`
-3. Corre las pruebas de aceptación simulando escenarios reales
-4. Revisa los reportes de **PMD** y **Cobertura**
+### Requisitos
+
+* Java 8 o superior
+* BlueJ o Eclipse
+* JUnit 4 (para pruebas)
+
+### Instalación
+
+1. Abrir el proyecto en BlueJ o importar como proyecto en Eclipse
+2. Compilar los archivos `.java` en `src/`
+3. Ejecutar desde la clase principal o interfaz si está disponible
 
 ---
 
-## ✅ Pruebas
+## ▶️ Uso
 
-🔬 Incluye:
+> \[!NOTE]
+> El tablero puede inclinarse hacia cualquier dirección usando comandos o botones (según la implementación final).
 
-- Pruebas unitarias `PuzzleCxTest`  
-- Pruebas comunes `PuzzleCCxTest`  
-- Pruebas de aceptación `PuzzleAtest` con interacción de usuario  
+> \[!TIP]
+> Puedes modificar los tableros de prueba o crear los tuyos en la clase `Puzzle`.
+
+También puedes incluir:
+
+* Capturas de pantalla del tablero antes y después de mover
+* GIFs o vídeos con desplazamientos visuales
+* Tableros configurables como entrada
 
 ---
 
-## 🔄 Retrospectiva del Proyecto
+## 🧪 Pruebas
 
-🧩 Cada ciclo incluye:
+Ejecuta las pruebas unitarias con JUnit desde consola o IDE:
 
-1. Mini-ciclos definidos y su justificación  
-2. Estado actual del proyecto  
-3. Horas dedicadas por cada integrante  
-4. Logros destacados  
-5. Principales problemas técnicos  
-6. Buenas prácticas como equipo  
-7. Práctica XP más útil aplicada
+```bash
+# Si usas JUnit 4
+java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore PuzzleTest
+```
 
+---
+
+## 📁 Estructura del Proyecto
+
+```bash
+📦 TILTING-TILES-POOB
+├── 📂 src/
+│   ├── 📜 Puzzle.java
+│   ├── 📜 Cell.java
+│   ├── 📜 Tile.java
+│   └── 📜 Main.java
+├── 📂 test/
+│   └── 📜 PuzzleTest.java
+├── 📜 README.md
+├── 📜 .gitignore
+└── 📜 LICENSE
+```
+
+---
+
+## 📌 TODOs / Funcionalidades Futuras
+
+* [ ] Implementar GUI con JavaFX o Swing
+* [ ] Añadir diferentes tipos de fichas (bloques, obstáculos, bonos)
+* [ ] Cargar tableros desde archivos externos
+* [ ] Modo competitivo y modo sandbox
+
+---
+
+## 📊 Estadísticas del Repositorio
+
+![Lenguaje principal](https://img.shields.io/github/languages/top/JuanSebastianGuayazanClavijoECI/TILTING-TILES-POOB?style=flat-square)
+![Tamaño del repositorio](https://img.shields.io/github/repo-size/JuanSebastianGuayazanClavijoECI/TILTING-TILES-POOB?style=flat-square)
+![Stars](https://img.shields.io/github/stars/JuanSebastianGuayazanClavijoECI/TILTING-TILES-POOB?style=flat-square)
+![Forks](https://img.shields.io/github/forks/JuanSebastianGuayazanClavijoECI/TILTING-TILES-POOB?style=flat-square)
+![Issues abiertas](https://img.shields.io/github/issues/JuanSebastianGuayazanClavijoECI/TILTING-TILES-POOB?style=flat-square)
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo propósitos académicos y educativos. Puedes consultar el archivo [LICENSE](./LICENSE) para más información.
+
+---
