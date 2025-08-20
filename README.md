@@ -2,7 +2,7 @@
 
 > ⚠️ Estado: ***EN DESARROLLO*** Versión académica
 
-Simulador de tablero dinámico en el que las fichas se inclinan en distintas direcciones. Este proyecto busca aplicar principios de orientación a objetos, modelado de estados y movimientos en una matriz interactiva y lógica.
+Simulador de tablero dinámico en el que las fichas se inclinan en distintas direcciones. El jugador debe reorganizar fichas sobre un tablero inclinándolas en distintas direcciones hasta alcanzar una configuración objetivo. El sistema combina la lógica de movimientos colectivos con la estrategia de planificación, ya que cada inclinación afecta a todas las fichas simultáneamente. Su diseño busca fortalecer habilidades de resolución de problemas, pensamiento lógico y toma de decisiones en un entorno lúdico y dinámico.
 
 ---
 
@@ -82,17 +82,33 @@ git clone https://github.com/JuanSebastianGuayazanClavijoECI/TILTING-TILES-POOB
 
 ## ▶️ Uso
 
+¡Excelente! 🚀 Aquí te preparo la **sección de Uso** para el proyecto **Tilting Tiles** con el mismo estilo que aplicamos en **POOBvsZOMBIES**:
+
+---
+
+## ▶️ Uso
+
+
+```bash
+# Desde la carpeta del proyecto
+javac src/presentation/PuzzleGUI.java
+java src/presentation/PuzzleGUI
+```
+
 > \[!NOTE]
-> El tablero puede inclinarse hacia cualquier dirección usando comandos o botones (según la implementación final).
+> El proyecto implementa un rompecabezas interactivo donde el jugador debe **mover las fichas inclinando el tablero** hasta alcanzar la configuración objetivo.
 
 > \[!TIP]
-> Puedes modificar los tableros de prueba o crear los tuyos en la clase `Puzzle`.
+> Puedes correr el programa desde **IntelliJ IDEA**, **BlueJ** o cualquier IDE compatible con Java sin necesidad de compilar manualmente.
 
-También puedes incluir:
+> \[!IMPORTANT]
+> La clase principal para iniciar el juego es `PuzzleGUI`, ubicada en el paquete `presentation`.
 
-* Capturas de pantalla del tablero antes y después de mover
-* GIFs o vídeos con desplazamientos visuales
-* Tableros configurables como entrada
+> \[!WARNING]
+> Si se eliminan o mueven las clases del paquete `domain`, la lógica de movimiento del tablero podría dejar de funcionar.
+
+> \[!CAUTION]
+> El programa admite tableros de distintos tamaños; asegúrate de no exceder los límites configurados para evitar errores de ejecución.
 
 ---
 
